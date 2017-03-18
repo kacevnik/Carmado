@@ -1787,25 +1787,25 @@ a.quick-email,
 }
 
 .top-news-title {
-    background: #ff6000  none repeat scroll 0 0;
+    background: url(img/carbon.jpg)no-repeat 0 0;
     color: #fff;
     display: block;
     float: left;
     font-size: 16px;
     font-weight: 600;
     margin-left: -500px;
-    padding: 8px 6px 9px 500px;
-    position: relative;
+    padding: 8px 40px 9px 500px;
+    position: relative
 }
 
 .top-news-title::after {
-    border-left: 16px solid #ff6000;
-    border-top: 41px solid rgba(0, 0, 0, 0);
+    border-right: 16px solid #179bd7;
+    border-bottom: 41px solid rgba(0, 0, 0, 0);
     content: "";
     display: inline;
     float: right;
     position: absolute;
-    right: -16px;
+    right: 11px;
     bottom: 0;
 }
 .top-news a {

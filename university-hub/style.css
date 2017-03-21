@@ -1862,6 +1862,7 @@ a.quick-email,
     vertical-align: middle;
 }
 .site-branding {
+    width: 50%;
     float: left;
 }
 
@@ -4806,4 +4807,19 @@ a.more {
     .site-title {
         margin: 0;
     }
+}
+
+#header_button{
+    float: right;
+    display: block;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 3px;
+    margin: 5px 0 0 15px;
+}
+
+#header_button:hover{
+    color: #253b80;
+    background-color: #fff;
 }

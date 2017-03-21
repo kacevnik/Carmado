@@ -124,6 +124,8 @@ function university_hub_scripts() {
 
 	wp_enqueue_style( 'jquery-sidr', get_template_directory_uri() .'/third-party/sidr/css/jquery.sidr.dark' . $min . '.css', '', '2.2.1' );
 
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri() .'/css/bootstrap.min.css', '', '3.0' );
+
 	wp_enqueue_style( 'university-hub-style', get_stylesheet_uri(), array(), '1.0.3' );
 
 	wp_enqueue_script( 'university-hub-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix' . $min . '.js', array(), '20130115', true );
@@ -131,6 +133,8 @@ function university_hub_scripts() {
 	wp_enqueue_script( 'jquery-cycle2', get_template_directory_uri() . '/third-party/cycle2/js/jquery.cycle2' . $min . '.js', array( 'jquery' ), '2.1.6', true );
 
 	wp_enqueue_script( 'jquery-sidr', get_template_directory_uri() . '/third-party/sidr/js/jquery.sidr' . $min . '.js', array( 'jquery' ), '2.2.1', true );
+
+	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array( 'jquery' ), '2.0', true );
 
 	wp_enqueue_script( 'jquery-easy-ticker', get_template_directory_uri() . '/third-party/ticker/jquery.easy-ticker' . $min . '.js', array( 'jquery' ), '2.0', true );
 

@@ -509,7 +509,6 @@ input[type="date"],
 textarea,
 select {
     color: #666;
-    border: 1px solid #ddd;
     background-color: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
 }
 
@@ -2992,7 +2991,7 @@ section.error-404 .search-form {
 /*contact form 7*/
 
 .wpcf7-form {
-    max-width: 875px;
+    
 }
 
 div.wpcf7 {
@@ -3005,7 +3004,7 @@ div.wpcf7 {
 }
 
 .wpcf7 input.wpcf7-submit {
-    width: auto;
+
 }
 .wpcf7-form-control-wrap {
     margin-top: 5px;
@@ -4822,4 +4821,15 @@ a.more {
 #header_button:hover{
     color: #253b80;
     background-color: #fff;
+}
+
+.cf_input{
+    border: 3px solid #666;
+    background-color: #f7fcfe;
+}
+
+.cf_btn_input input{
+    width: 100%;
+    margin-top: 5px;
+    padding: 8px;
 }
